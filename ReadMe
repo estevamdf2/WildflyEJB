@@ -1,0 +1,11 @@
+ 
+Projeto EJB criado na ide eclipse. Tem como target runtime o servidor Wildfly 10.0.0, usa a versão 3.2 do EJB Foram criadas para exemplificar duas classes que efetuam o cálculo da cotação do dólar.
+Para consumir o projeto foi criada a seguinte aplicação cliente: DevMedia_AcessoRemoto.
+
+Endereço do projeto cliente: https://github.com/estevamdf2/DevMedia_AcessoRemoto.git
+
+Importante!!!!
+Necessário mudar o standalone do servidor para o standalone-full.xml. Para fazer está mudança pelo eclipse de um duplo clique no servidor Wildfly em seguida clique no link Runtime Environment na aba configuration file clique em browser e mude para a versão: standalone-full.xml clique em finish salve o arquivo e suba o servidor.
+
+O projeto foi criado com base no seguinte artigo: Trabalhando com Session Beans Stateless e Stateful
+Link para acesso: http://www.devmedia.com.br/trabalhando-com-session-beans-stateless-e-stateful/28260
